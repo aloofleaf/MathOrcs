@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.mathorcs.resources.SettingsFragment">
+
+    <ListPreference
+        android:defaultValue="@string/easy_difficulty_preference_value"
+        android:entries="@array/difficulty_labels"
+        android:entryValues="@array/difficulty_values"
+        android:key="@string/difficulty_key"
+        android:title="@string/difficulty_title"
+        android:summary="@string/difficulty_summary"/>
+
+    <CheckBoxPreference
+        android:defaultValue="@bool/mega_mode_pref_default"
+        android:summary="@string/mega_mode_pref_summary"
+        android:title="@string/mega_mode_pref_title"
+        android:key="@string/mega_mode_pref_key"
+        android:id="@+id/mega_mode_enabler_preference"/>
+    <ListPreference
+        android:defaultValue="@string/mega_mode_level_1_value"
+        android:dependency="@string/mega_mode_pref_key"
+        android:entries="@array/mega_mode_levels_labels"
+        android:entryValues="@array/mega_mode_levels_values"
+        android:key="@string/mega_mode_levels_key"
+        android:title="@string/mega_mode_levels_title"
+        android:summary="@string/mega_mode_levels_summary"/>
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:summaryOff="@string/disabled"
+        android:summaryOn="@string/enabled"
+        android:title="@string/tips_pref_title"
+        android:key="@string/tips_pref_key"
+        android:id="@+id/tips_enabled_preference"/>
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:summaryOff="@string/disabled"
+        android:summaryOn="@string/enabled"
+        android:title="@string/timer_bar_pref_title"
+        android:key="@string/timer_bar_pref_key"
+        android:id="@+id/timer_bar_enabled_preference"/>
+
+</PreferenceScreen>

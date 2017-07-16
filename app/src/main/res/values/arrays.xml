@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="mega_mode_levels_labels">
+        <item>@string/mega_mode_level_1</item>
+        <item>@string/mega_mode_level_2</item>
+        <item>@string/mega_mode_level_3</item>
+        <item>@string/mega_mode_level_4</item>
+        <item>@string/mega_mode_level_5</item>
+        <item>@string/mega_mode_level_6</item>
+        <item>@string/mega_mode_level_7</item>
+        <item>@string/mega_mode_level_8</item>
+        <item>@string/mega_mode_level_9</item>
+        <item>@string/mega_mode_level_10</item>
+    </array>
+    <array name="mega_mode_levels_values">
+        <item>@string/mega_mode_level_1_value</item>
+        <item>@string/mega_mode_level_2_value</item>
+        <item>@string/mega_mode_level_3_value</item>
+        <item>@string/mega_mode_level_4_value</item>
+        <item>@string/mega_mode_level_5_value</item>
+        <item>@string/mega_mode_level_6_value</item>
+        <item>@string/mega_mode_level_7_value</item>
+        <item>@string/mega_mode_level_8_value</item>
+        <item>@string/mega_mode_level_9_value</item>
+        <item>@string/mega_mode_level_10_value</item>
+    </array>
+    <array name="difficulty_labels">
+        <item>@string/no_timer_difficulty_preference</item>
+        <item>@string/easy_difficulty_preference</item>
+        <item>@string/medium_difficulty_preference</item>
+        <item>@string/hard_difficulty_preference</item>
+    </array>
+    <array name="difficulty_values">
+        <item>@string/no_timer_difficulty_preference_value</item>
+        <item>@string/easy_difficulty_preference_value</item>
+        <item>@string/medium_difficulty_preference_value</item>
+        <item>@string/hard_difficulty_preference_value</item>
+    </array>
+
+    <!--
+
+    <array name="high_scores_number_labels">
+        <item>@string/top_ten_hs_preference</item>
+        <item>@string/all_hs_preference</item>
+    </array>
+    <array name="high_scores_number_values">
+        <item>@string/top_ten_hs_preference_value</item>
+        <item>@string/all_hs_preference_value</item>
+    </array>
+
+    <array name="get_scores_from_period_labels">
+        <item>@string/hs_from_past_day_preference</item>
+        <item>@string/hs_from_past_week_preference</item>
+        <item>@string/hs_from_past_month_preference</item>
+        <item>@string/hs_from_past_year_preference</item>
+        <item>@string/hs_from_all_time_preference</item>
+    </array>
+    <array name="get_scores_from_period_values">
+        <item>@string/hs_from_past_day_preference_value</item>
+        <item>@string/hs_from_past_week_preference_value</item>
+        <item>@string/hs_from_past_month_preference_value</item>
+        <item>@string/hs_from_past_year_preference_value</item>
+        <item>@string/hs_from_all_time_preference_value</item>
+    </array>
+
+    -->
+
+</resources>
